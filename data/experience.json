@@ -1,0 +1,253 @@
+[
+  {
+    "slug": "project-chi",
+    "title": "Project CHI (Computation and Human Intelligence)",
+    "type": "program",
+    "logo": "/images/experience/chifro-logo.webp",
+    "timeframe": "Mar 2024 - Present",
+    "dateStart": "2024-03-01",
+    "dateEnd": null,
+    "location": "USA",
+    "organization": "Project CHI",
+    "summary": "Graduate Student Collaborator in Project CHI.",
+    "description": "I am a graduate student collaborator inside Project CHI, a large-scale effort to build field-wide standard machine-executable models of the human mind that explain the workings of the brain. I have helped to test and evaluate GenJAX, a GPU-accelerated probabilistic programming system as a frequent user and minor contributor. I am also actively contributing to the ChiBrain initiative within the Project CHI ecosystem.",
+    "tags": ["Program", "Project CHI", "Research", "Probabilistic Programming", "GenJAX", "ChiBrain"],
+    "links": {
+      "website": "https://www.chi-fro.org/"
+    }
+  },
+  {
+    "slug": "jump-cocosys",
+    "title": "Joint University Microelectronics Program (JUMP) 2.0",
+    "type": "program",
+    "logo": "/images/experience/src-logo.jpeg",
+    "timeframe": "Jun 2023 - May 2025",
+    "dateStart": "2023-06-01",
+    "dateEnd": "2025-05-31",
+    "location": "USA",
+    "organization": "CoCoSys: Center for the Co-Design of Cognitive Systems",
+    "summary": "SRC Scholar - CoCoSys, one of seven JUMP 2.0 academic research centers",
+    "description": "I was a Semiconductor Research Corporation (SRC) scholar, where I was funded and involved in CoCoSys, one of seven Joint University Microelectronics Program (JUMP) 2.0 academic research centers co-sponsored by the Semiconductor Research Corporation (SRC) and Defense Advanced Research Projects Agency (DARPA). I traveled to Atlanta, Georgia twice to present my research via posters and gave a talk to all industry and academic members of the CoCoSys center on my work.",
+    "tags": ["Program", "SRC", "DARPA", "Research", "CoCoSys"],
+    "links": {
+      "website": "https://www.src.org/program/jump2/cocosys/",
+      "poster": "/pdfs/Arijit_cocosys_poster_2024.pdf"
+    }
+  },
+  {
+    "slug": "darpa-mcs",
+    "title": "DARPA Machine Common Sense",
+    "type": "program",
+    "logo": "/images/experience/darpa-logo.webp",
+    "timeframe": "Sep 2022 - Dec 2023",
+    "dateStart": "2022-09-01",
+    "dateEnd": "2023-12-31",
+    "location": "USA",
+    "organization": "MIT-IBM Watson AI Lab",
+    "summary": "Collaboration with the MIT-IBM Watson AI Lab to build an image-computable probabilistic AI system for physical commonsense reasoning",
+    "description": "Collaborated with the MIT IBM Watson AI Lab team led by Dan Gutfreund on DARPA’s Machine Common Sense program, playing a key role in building an image-computable probabilistic AI system using the GenJAX probabilistic programming system for physical commonsense reasoning that successfully met all benchmark requirements.",
+    "tags": ["Program", "DARPA", "MIT-IBM", "Research"],
+    "links": {
+      "website": "https://www.darpa.mil/research/programs/machine-common-sense"
+    }
+  },
+  {
+    "slug": "i2r-internship",
+    "title": "Cognitive AI Research Intern",
+    "type": "research",
+    "logo": "/images/experience/astar-logo.webp",
+    "timeframe": "May 2021 - Feb 2022",
+    "dateStart": "2021-05-01",
+    "dateEnd": "2022-02-01",
+    "location": "Singapore",
+    "organization": "Institute for Infocomm Research, A*STAR",
+    "summary": "Developed 3D vision-only synthetic dataset for VoE paradigm as part of Bachelor's Dissertation",
+    "description": "As part of my Bachelor's Dissertation, I developed a 3D vision only Synthetic Dataset that showcases impossible and possible scenes, which an artificial agent must discriminate using the Violation-of-Expectation paradigm. The work was published in a NeurIPS Workshop. I also co-authored a Survey paper on Machine Learning Approaches for Modelling Intuitive Physics.",
+    "tags": ["Research", "Cognitive AI", "VoE", "Deep Learning", "3D Vision"],
+    "links": {
+      "website": "https://www.a-star.edu.sg/i2r"
+    },
+    "outcomes": [
+      { "type": "publication", "slug": "voe" },
+      { "type": "publication", "slug": "ijcai-survey" }
+    ]
+  },
+  {
+    "slug": "dso-internship",
+    "title": "Machine Learning Research and Software Engineering Intern",
+    "type": "internship",
+    "logo": "/images/experience/dso-logo.jpeg",
+    "timeframe": "Jun 2020 - Dec 2020",
+    "dateStart": "2020-06-01",
+    "dateEnd": "2020-12-01",
+    "location": "Singapore",
+    "organization": "DSO National Laboratories",
+    "summary": "Novel unsupervised deep learning approach to automated protocol reverse engineering",
+    "description": "Introduced a novel unsupervised deep learning approach to automated protocol reverse engineering (APRE). Developed enigma, a software framework API written in Python to simplify the usability and flexibility of testing and conducting APRE analysis using multiple machine learning techniques. Investigated multiple unsupervised machine learning techniques as baselines for comparison against the deep learning approach. This work was published in IEEE SSCI 2021.",
+    "tags": ["Research", "Machine Learning", "Unsupervised Learning", "Network Protocols"],
+    "links": {
+      "website": "https://www.dso.org.sg/"
+    },
+    "outcomes": [
+      { "type": "publication", "slug": "ieee-ssci" }
+    ]
+  },
+  {
+    "slug": "rosi-internship",
+    "title": "Robotic Software Development Intern",
+    "type": "internship",
+    "logo": "/images/experience/rosi-logo.webp",
+    "timeframe": "May 2019 - Aug 2019",
+    "dateStart": "2019-05-01",
+    "dateEnd": "2019-08-01",
+    "location": "Singapore",
+    "organization": "ROS-Industrial Asia-Pacific",
+    "summary": "Autonomous Ground Vehicle fleet controller using ROS C++",
+    "description": "Developed an Autonomous Ground Vehicle (AGV) fleet controller using Robotic Operating System (ROS) C++, in the Gazebo simulation environment. The AGV fleet controller allows the control of single/multiple AGV(s) transport orders, similar to a virtual fleet manager for mobile industrial robots, through an easy-to-use User Interface (UI).",
+    "tags": ["Robotics", "ROS", "Software Development", "Gazebo"],
+    "links": {
+      "website": "https://rosindustrial.org/ric-apac"
+    }
+  },
+  {
+    "slug": "ihpc-internship",
+    "title": "Computational Aerodynamics Research Intern",
+    "type": "research",
+    "timeframe": "Feb 2018 - May 2018",
+    "dateStart": "2018-02-01",
+    "dateEnd": "2018-05-01",
+    "logo": "/images/experience/astar-logo.webp",
+    "location": "Singapore",
+    "organization": "Institute of High Performance Computing, A*STAR",
+    "summary": "Investigated Negative Magnus Effect using RANS models in OpenFOAM",
+    "description": "Investigated the Negative Magnus Effect on the flow past a rotating cylinder at different angular velocities using Reynold-averaged Navier Stokes (RANS) models in OpenFOAM. Studied the effect of varying the mesh motion methodologies, turbulence intensities and transitional RANS models in detecting the Negative Magnus Effect. I presented the work during AIAA Scitech 2020 at Orlando, Florida.",
+    "tags": ["Research", "CFD", "Aerodynamics", "OpenFOAM"],
+    "links": {
+      "website": "https://www.a-star.edu.sg/ihpc"
+    },
+    "outcomes": [
+      { "type": "publication", "slug": "aiaa2020" }
+    ]
+  },
+  {
+    "slug": "fmav",
+    "title": "Flapping-Wing MAV Deep RL",
+    "type": "engineering",
+    "timeframe": "Apr 2020",
+    "dateStart": "2020-04-16",
+    "dateEnd": "2020-04-16",
+    "location": "Singapore",
+    "organization": "NUS Class Project",
+    "summary": "A ROS Workspace for a Deep RL approach to teaching a Physical Flapping-Wing MAV to Fly in a controlled environment",
+    "description": "This Project hosts the ROS Workspace for a closed loop control system that uses Deep RL (DDPG) to teach a real physical flapping wing MAV to fly. This workspace was created in ROS Melodic (Ubuntu 18.04). All details about the setup and training process can be found in the report.",
+    "thumbnail": "/images/projects/FMAV/featured.png",
+    "tags": ["AIML", "Engineering Design", "Class Project", "Deep RL", "ROS", "Robotics"],
+    "links": {
+      "report": "/pdfs/FWMAV_DeepRL_Final.pdf",
+      "code": "https://github.com/arijitnoobstar/Flapping-Wing-MAV_DeepRL"
+    },
+    "collaborators": [
+      { "name": "Arijit Dasgupta", "url": "https://github.com/arijitnoobstar" },
+      { "name": "Jasper Tan", "url": "https://jaspertan97.github.io/" },
+      { "name": "Chong Yu Quan", "url": "https://github.com/cyuquan8" }
+    ]
+  },
+  {
+    "slug": "spiderbot",
+    "title": "Deep RL for SpiderBot",
+    "type": "engineering",
+    "timeframe": "Nov 2020",
+    "dateStart": "2020-11-18",
+    "dateEnd": "2020-11-18",
+    "location": "Singapore",
+    "organization": "NUS Class Project",
+    "summary": "A custom-designed Spider Robot trained to walk using Deep RL in a PyBullet Simulation",
+    "description": "In this project, we aim to take our SpiderBot and make it walk using deep reinforcement learning. The code is written entirely in Python 3.7.7. The PyBullet Physics Engine is used for simulation using an OpenGL GUI. The code supports 5 algorithms: MAD3QN, MAA2C, A2CMA, A2CSA, and DDPG. The fully trained model (375 episodes) is able to walk well and up to 9 metres in the forward direction.",
+    "thumbnail": "/images/projects/spiderbot/featured.jpg",
+    "tags": ["AIML", "Class Project", "Deep RL", "Robotics", "PyBullet"],
+    "links": {
+      "report": "/pdfs/SpiderBot_Report.pdf",
+      "code": "https://github.com/arijitnoobstar/SpiderBot_DeepRL"
+    },
+    "collaborators": [
+      { "name": "Arijit Dasgupta", "url": "https://github.com/arijitnoobstar" },
+      { "name": "Chong Yu Quan", "url": "https://github.com/cyuquan8" }
+    ]
+  },
+  {
+    "slug": "machine-vision",
+    "title": "Machine Vision & Image Processing",
+    "type": "engineering",
+    "timeframe": "Nov 2020",
+    "dateStart": "2020-11-09",
+    "dateEnd": "2020-11-09",
+    "location": "Singapore",
+    "organization": "NUS Class Project",
+    "summary": "A full workflow of a series of digital image processing tools written from scratch in MATLAB",
+    "description": "This project presents series of digital image processing tools created in MATLAB from scratch. The following sequential steps are done using classical digital image processing techniques and coded from scratch: Conduct binary thresholding, Image segmentation using a Union-Find graph algorithm, Rotation of the image using linear, bilinear & bicubic interpolation, Edge detection using various techniques in the spatial domain and spatial frequency domain, Finding a pixel-thin representation of the objects using mathematical morphological techniques.",
+    "thumbnail": "/images/projects/MV/featured.png",
+    "tags": ["Class Project", "Image Processing", "Computer Vision", "MATLAB"],
+    "links": {
+      "report": "/pdfs/image_processing_report.pdf",
+      "code": "https://github.com/arijitnoobstar/MachineVision_ImageProcessing"
+    },
+    "collaborators": [
+      { "name": "Arijit Dasgupta", "url": "https://github.com/arijitnoobstar" },
+      { "name": "Chong Yu Quan", "url": "https://github.com/cyuquan8" }
+    ]
+  },
+  {
+    "slug": "pinn",
+    "title": "Physics Informed Neural Networks",
+    "type": "engineering",
+    "timeframe": "Apr 2020",
+    "dateStart": "2020-04-01",
+    "dateEnd": "2020-04-01",
+    "location": "Singapore",
+    "organization": "NUS Class Project",
+    "summary": "Predicting 2D incompressible flow characteristics with ML",
+    "description": "A Physics Informed Neural Network predicts the two-dimensional viscous flow field of the flow past a cylinder rotating at a constant rate of rotation in an incompressible flow. The flow is numerically simulated using an open source CFD software tool, OpenFOAM. The PINN model in this project is trained to obey the governing Navier-Stokes equations as a penalising regularisation loss using automatic differentiation in the open source machine learning software tool TensorFlow in which the PINN is developed. The PINN is also shown to have better performance than a neural network (NN) which is not physics based but trained with CFD Data, especially with scarce data.",
+    "thumbnail": "/images/projects/PINN/featured.png",
+    "tags": ["AIML", "Class Project", "Physics-Informed ML", "CFD", "Neural Networks"],
+    "links": {
+      "report": "/pdfs/pinn.pdf"
+    },
+    "collaborators": [
+      { "name": "Arijit Dasgupta", "url": "https://github.com/arijitnoobstar" }
+    ]
+  },
+  {
+    "slug": "rover",
+    "title": "6-Wheel Rocket-Bogie Rover",
+    "type": "engineering",
+    "timeframe": "Feb 2020",
+    "dateStart": "2020-02-01",
+    "dateEnd": "2020-02-01",
+    "location": "Singapore",
+    "organization": "NUS Mars Rover Team",
+    "summary": "A rover designed as part of the NUS Mars Rover Team for the University Rover Challenge 2020 (cancelled in lieu of COVID-19)",
+    "description": "Designed, manufactured and assembled a 6-wheel rocker-bogie rover as part of the NUS Mars Rover Team. Specially in charge of the mobility system of the rover in terms of Computer-Aided Design, team-strategy, welding liaison & manufacturing. Competition was cancelled in lieu of COVID-19.",
+    "thumbnail": "/images/projects/rover/featured.png",
+    "tags": ["Engineering Design", "Competition", "Robotics", "Mechanical Design"],
+    "links": {},
+    "collaborators": []
+  },
+  {
+    "slug": "uav",
+    "title": "Folding-Wing Unmanned Aerial Vehicle",
+    "type": "engineering",
+    "timeframe": "Apr 2019",
+    "dateStart": "2019-04-15",
+    "dateEnd": "2019-04-15",
+    "location": "Singapore",
+    "organization": "NUS UAV Team",
+    "summary": "A pancake-shaped folding wing unmanned aerial vehicle for AIAA Design, Build, Fly 2019 in Arizona, USA.",
+    "description": "Designed, manufactured and assembled an Unmanned Aerial Vehicle (UAV) as part of the NUS UAV Team 2019. In charge of Computer-Aided Design, flight theoretical calculations, team strategy & management, manufacturing, electronics & soldering, assembling and logistics handling. Represented NUS for the competition in Arizona, USA.",
+    "thumbnail": "/images/projects/UAV/featured.png",
+    "tags": ["Engineering Design", "Competition", "UAV", "Aerospace"],
+    "links": {
+      "report": "/pdfs/aiaadbf19.pdf"
+    },
+    "collaborators": []
+  }
+]

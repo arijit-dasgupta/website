@@ -1,0 +1,43 @@
+{
+  "name": "Arijit Dasgupta",
+  "title": "PhD Student, MIT EECS",
+  "bio": "I am a fourth-year PhD student in MIT EECS, co advised by Vikash K. Mansinghka and Joshua B. Tenenbaum, and a member of both the Probabilistic Computing Project and the Computational Cognitive Science Group in MIT CSAIL and BCS. Funded by the Probabilistic Computing Foundation, previously supported as an SRC Research Scholar through the SRC JUMP 2.0 program and by the DARPA Machine Common Sense program.\n\nMy research is grounded in computational cognitive modeling, studying the principles that make human perception and physical reasoning robust under uncertainty and limited computation. I translate those ideas into structured, image-computable Bayesian models in domains like 3D motion-based perception and psychophysical prediction and tracking under occlusion. To make these methods practical at realistic scales, I develop GPU-accelerated approximate Bayesian inference pipelines, leveraging parallelism in both algorithms (e.g., sequential Monte Carlo, blocked Gibbs sampling) and representations (e.g., hierarchical particle-based scene models).\n\nAt a high level, I want to understand and reproduce the cognitive ingredients that make humans reliable at 3D perception and physical reasoning, and to turn those ingredients into perception stacks for physical AI. This motivates my interest in hybrid systems that integrate large vision models with structured Bayesian modeling and inference. The goal is robotic perception that stays grounded in uncertainty, scene structure, and physical consistency while operating at real-world scale through careful systems engineering. A complementary goal is to connect this work back to the brain: turning these models into testable theories and tools that cognitive neuroscientists can evaluate by comparing predictions to behavioral and neural data.",
+  "links": {
+    "Joshua B. Tenenbaum": "https://scholar.google.com/citations?user=rRJ9wTJMUB8C&hl=en",
+    "Vikash K. Mansinghka": "https://scholar.google.com/citations?user=-Txt8vsAAAAJ&hl=en",
+    "Probabilistic Computing Project": "https://probcomp.csail.mit.edu/",
+    "Computational Cognitive Science Group": "https://cocosci.mit.edu/",
+    "Probabilistic Computing Foundation": "https://www.probcompfoundation.org/",
+    "SRC Research Scholar": "https://www.linkedin.com/company/src-research-scholars/",
+    "DARPA Machine Common Sense program": "https://www.darpa.mil/program/machine-common-sense"
+  },
+  "email": "arijitdg@mit.edu",
+  "social": {
+    "googleScholar": "https://scholar.google.com/citations?user=ijB9uzMAAAAJ&hl=en",
+    "github": "https://github.com/arijitnoobstar",
+    "linkedin": "https://www.linkedin.com/in/arijitdasgupta97/",
+    "twitter": "https://twitter.com/ArijitNoobstar"
+  },
+  "interests": [
+    "Probabilistic Computing",
+    "Cognitive AI",
+    "Physical Reasoning",
+    "Robotics",
+    "3D Perception",
+    "Intuitive Physics"
+  ],
+  "researchInterests": [
+    "Probabilistic Computing",
+    "Cognitive AI",
+    "Physical Reasoning",
+    "Robotics",
+    "3D Perception",
+    "Intuitive Physics"
+  ],
+  "availability": {
+    "seeking": "Hi there! I am currently looking for a Summer Research Internship (2026). Do reach out if you think I would be a good fit for your team!",
+    "focusAreas": ["Cognitive AI", "Robotics", "Probabilistic Computing"],
+    "timing": "Summer 2026"
+  },
+  "photo": "/images/profile/avatar.jpg"
+}

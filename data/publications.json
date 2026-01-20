@@ -1,0 +1,227 @@
+[
+  {
+    "slug": "genmatter",
+    "title": "GenMatter: Perceiving Physical Objects with Generative Matter Models",
+    "date": "2026-01-01",
+    "venue": "Under Review",
+    "venueShort": "Under Review",
+    "authors": [
+      { "name": "Eric Li", "isUser": false, "isCoFirst": true },
+      { "name": "Arijit Dasgupta", "isUser": true, "isCoFirst": true },
+      { "name": "Yoni Friedman", "isUser": false, "isCoFirst": false },
+      { "name": "Mathieu Huot", "isUser": false, "isCoFirst": false },
+      { "name": "Vikash K. Mansinghka", "isUser": false, "isCoFirst": false },
+      { "name": "Thomas O'Connell", "isUser": false, "isCoFirst": false },
+      { "name": "William T. Freeman", "isUser": false, "isCoFirst": false },
+      { "name": "Joshua B. Tenenbaum", "isUser": false, "isCoFirst": false }
+    ],
+    "abstract": "Human visual perception offers valuable insights for understanding computational principles of motion-based scene interpretation. Humans robustly detect and segment moving entities that constitute independently moveable chunks of matter, whether observing sparse moving dots, textured surfaces, or naturalistic scenes. In contrast, existing computer vision systems lack a unified approach that works across these diverse settings. Inspired by principles of human perception, we propose a generative model that hierarchically groups low-level motion and appearance features into particles (small Gaussians representing local matter), and groups particles into clusters capturing coherently and independently moveable physical entities. We develop a hardware-accelerated inference algorithm based on parallelized block Gibbs sampling to recover stable particle motion and groupings. Our model operates on different kinds of inputs (random dots, stylized textures, or naturalistic RGB video), enabling it to work across settings where biological vision succeeds but existing computer vision approaches do not. We validate this unified framework across three domains: on 2D random dot kinematograms, our approach captures human object perception including graded uncertainty across ambiguous conditions; on a Gestalt-inspired dataset of camouflaged rotating objects, our approach recovers correct 3D structure from motion and thereby accurate 2D object segmentation; and on naturalistic RGB videos, our model tracks the moving 3D matter that makes up deforming objects, enabling robust object-level scene understanding. This work thus establishes a general framework for motion-based perception grounded in principles of human vision.",
+    "thumbnail": "/images/publications/CVPR_2026/marquee.png",
+    "links": {},
+    "tags": ["Bayesian Inference", "Human Psychophysics", "Gestalt Grouping", "Probabilistic Methods", "Object Perception", "Generative Models"],
+    "featured": true,
+    "publicationType": "preprint"
+  },
+  {
+    "slug": "genparticles",
+    "title": "GenParticles: Probabilistic Particle-Based Modeling for Object-Centric Motion",
+    "date": "2025-06-21",
+    "venue": "Robotics: Science and Systems 2025 Workshop on Structured World Models for Robotic Manipulation (SWOMO)",
+    "venueShort": "RSS 2025 Workshop (SWOMO)",
+    "venues": [
+      {
+        "venue": "Robotics: Science and Systems 2025 Workshop on Structured World Models for Robotic Manipulation (SWOMO)",
+        "venueShort": "RSS 2025 Workshop (SWOMO)",
+        "year": 2025
+      }
+    ],
+    "authors": [
+      { "name": "Arijit Dasgupta", "isUser": true, "isCoFirst": true },
+      { "name": "Eric Li", "isUser": false, "isCoFirst": true },
+      { "name": "Mathieu Huot", "isUser": false, "isCoFirst": false },
+      { "name": "William T. Freeman", "isUser": false, "isCoFirst": false },
+      { "name": "Vikash K. Mansinghka", "isUser": false, "isCoFirst": false },
+      { "name": "Joshua B. Tenenbaum", "isUser": false, "isCoFirst": false }
+    ],
+    "abstract": "Modeling and manipulating the physical world from visual input requires tracking entities and inferring their structure under uncertainty. We introduce GenParticles, a probabilistic, particle-based generative model that that supports Bayesian inference of persistent object-level structure from observed positions and motion cues over time. The model defines latent particles representing spatially localized matter via 3D Gaussians and imposes hierarchical motion constraints by clustering particles into groups with coherent dynamics. Approximate inference is performed via parallelized block Gibbs sampling, facilitating tracking and refinement of latent structure across naturalistic video sequences with dense per-frame observations. GenParticles maintains temporally consistent inference by updating particle structure, allowing it to track both rigid and deformable motion without requiring explicit point correspondences. Beyond video analysis, this method offers an online framework for identifying and mapping moving objects within a scene, with potential relevance for downstream applications in robotic manipulation.",
+    "bibtex": "@inproceedings{dasgupta2025genparticles,\n  title={GenParticles: Probabilistic Particle-Based Modeling for Object-Centric Motion},\n  author={Dasgupta, Arijit and Li, Eric and Huot, Mathieu and Freeman, William T and Mansinghka, Vikash K and Tenenbaum, Joshua B},\n  booktitle={Robotics: Science and Systems 2025 Workshop on Structured World Models for Robotic Manipulation (SWOMO)},\n  year={2025},\n  url={https://openreview.net/pdf?id=7axVuVeOBj}\n}",
+    "thumbnail": "/images/publications/RSS_2025/marquee.png",
+    "links": {
+      "paper": "https://openreview.net/pdf?id=7axVuVeOBj",
+      "poster": "/pdfs/publications/RSS_2025/rss_poster.pdf"
+    },
+    "tags": ["Robotics", "Probabilistic Programming", "Object-Centric Learning", "Particle-Based Models", "GenJAX", "Structured World Models"],
+    "featured": true,
+    "publicationType": "workshop"
+  },
+  {
+    "slug": "jtap",
+    "title": "Seeing through Occlusion: Uncertainty-aware Joint Physical Tracking and Prediction",
+    "date": "2025-07-26",
+    "venue": "Proceedings of the Annual Meeting of the Cognitive Science Society",
+    "venueShort": "CogSci 2025",
+    "venues": [
+      {
+        "venue": "Proceedings of the Annual Meeting of the Cognitive Science Society",
+        "venueShort": "CogSci 2025",
+        "year": 2025,
+        "volume": 47
+      }
+    ],
+    "authors": [
+      { "name": "Arijit Dasgupta", "isUser": true, "isCoFirst": false },
+      { "name": "Andrew D. Bolton", "isUser": false, "isCoFirst": false },
+      { "name": "Vikash K. Mansinghka", "isUser": false, "isCoFirst": false },
+      { "name": "Joshua B. Tenenbaum", "isUser": false, "isCoFirst": false },
+      { "name": "Kevin A. Smith", "isUser": false, "isCoFirst": false }
+    ],
+    "abstract": "Humans can track objects and predict their motion even when they are temporarily occluded. How does the absence of changing visual evidence alter predictive beliefs about a moving object? In our study, participants were tasked with continuously anticipating the destination of a simulated ball in occluded and un-occluded 2.5D environments. Our findings reveal that humans actively update their judgments throughout the period of occlusion while making predictions grounded in physical realism, even as occlusion impairs accuracy. To model this behavior, we integrate perception with physical reasoning, unifying tracking and prediction. This is implemented via massively parallel probabilistic inference in a hierarchical generative model for the motion of intermittently visible objects, represented using the GenJAX probabilistic programming platform. This model predicts time-varying human judgments more accurately than alternative models, suggesting that humans integrate perception and physics to reason about occluded motion.",
+    "bibtex": "@inproceedings{dasgupta2025seeing,\n  title={Seeing through Occlusion: Uncertainty-aware Joint Physical Tracking and Prediction},\n  author={Dasgupta, Arijit and Bolton, Andrew D and Mansinghka, Vikash and Tenenbaum, Joshua B and Smith, Kevin A},\n  booktitle={Proceedings of the Annual Meeting of the Cognitive Science Society},\n  volume={47},\n  year={2025}\n}",
+    "thumbnail": "/images/publications/jtap/featured.gif",
+    "links": {
+      "paper": "/pdfs/publications/Cogsci2025/Seeing_through_Occlusion_JTAP.pdf",
+      "poster": "/pdfs/publications/Cogsci2025/JTAP_CogSci_Poster_Final.pdf",
+      "website": "https://arijit-dasgupta.github.io/jtap/",
+      "code": "https://github.com/probcomp/jtap-demo"
+    },
+    "tags": ["Cognitive AI", "Physical Reasoning", "Probabilistic Programming", "Occlusion", "Tracking", "GenJAX"],
+    "featured": true,
+    "publicationType": "conference"
+  },
+  {
+    "slug": "voe",
+    "title": "A Benchmark for Modeling Violation-of-Expectation in Physical Reasoning Across Event Categories",
+    "date": "2023-07-26",
+    "venue": "Proceedings of the Annual Meeting of the Cognitive Science Society",
+    "venueShort": "CogSci 2023",
+    "venues": [
+      {
+        "venue": "Proceedings of the Annual Meeting of the Cognitive Science Society",
+        "venueShort": "CogSci 2023",
+        "year": 2023,
+        "volume": 45,
+        "number": 45
+      },
+      {
+        "venue": "36th Conference on Neural Information Processing Systems (NeurIPS 2022) Track on Datasets and Benchmarks",
+        "venueShort": "NeurIPS 2022 Dataset & Benchmarks Track",
+        "year": 2022
+      }
+    ],
+    "authors": [
+      { "name": "Arijit Dasgupta", "isUser": true, "isCoFirst": false },
+      { "name": "Jiafei Duan", "isUser": false, "isCoFirst": false },
+      { "name": "Yi Lin", "isUser": false, "isCoFirst": false },
+      { "name": "Su-Hua Wang", "isUser": false, "isCoFirst": false },
+      { "name": "Renée Baillargeon", "isUser": false, "isCoFirst": false },
+      { "name": "Cheston Tan", "isUser": false, "isCoFirst": false }
+    ],
+    "abstract": "Recent work in computer vision and cognitive reasoning has given rise to an increasing adoption of the Violation-of-Expectation (VoE) paradigm in synthetic datasets. Inspired by infant psychology, researchers are now evaluating a model's ability to label scenes as either expected or surprising with knowledge of only expected scenes. However, existing VoE-based 3D datasets in physical reasoning provide mainly vision data with little to no heuristics or inductive biases. Cognitive models of physical reasoning reveal infants create high-level abstract representations of objects and interactions. Capitalizing on this knowledge, we established a benchmark to study physical reasoning by curating a novel large-scale synthetic 3D VoE dataset armed with ground-truth heuristic labels of causally relevant features and rules. To validate our dataset in five event categories of physical reasoning, we benchmarked and analyzed human performance. We also proposed the Object File Physical Reasoning Network (OFPR-Net) which exploits the dataset's novel heuristics to outperform our baseline and ablation models. The OFPR-Net is also flexible in learning an alternate physical reality, showcasing its ability to learn universal causal relationships in physical reasoning to create systems with better interpretability.",
+    "bibtex": "@inproceedings{dasgupta2023benchmark,\n  title={A Benchmark for Modeling Violation-of-Expectation in Physical Reasoning Across Event Categories},\n  author={Dasgupta, Arijit and Duan, Jiafei and Lin, Yi and Wang, Su-hua and Baillargeon, Renee and Tan, Cheston},\n  booktitle={Proceedings of the Annual Meeting of the Cognitive Science Society},\n  volume={45},\n  number={45},\n  year={2023}\n}",
+    "thumbnail": "/images/publications/voe/featured.png",
+    "links": {
+      "paper": "/pdfs/publications/VoE.pdf",
+      "arxiv": "https://arxiv.org/abs/2110.05836",
+      "code": "https://github.com/arijitnoobstar/voe_physical_reasoning",
+      "dataset": "https://github.com/jiafei1224/AVoE",
+      "supplementary": "/pdfs/VOE_NeurIPS_Supplementary.pdf"
+    },
+    "tags": ["Cognitive AI", "Physical Reasoning"],
+    "featured": true,
+    "publicationType": "conference"
+  },
+  {
+    "slug": "ijcai-survey",
+    "title": "A Survey on Machine Learning Approaches for Modelling Intuitive Physics",
+    "date": "2022-07-01",
+    "venue": "In the 31st International Joint Conference on Artificial Intelligence - Survey Track",
+    "venueShort": "IJCAI - Survey Track 2022",
+    "authors": [
+      { "name": "Jiafei Duan", "isUser": false, "isCoFirst": true },
+      { "name": "Arijit Dasgupta", "isUser": true, "isCoFirst": true },
+      { "name": "Jason Fischer", "isUser": false, "isCoFirst": false },
+      { "name": "Cheston Tan", "isUser": false, "isCoFirst": false }
+    ],
+    "abstract": "Research in cognitive science has provided extensive evidence on human cognitive ability in performing physical reasoning of objects from noisy perceptual inputs. Such a cognitive ability is commonly known as intuitive physics. With the advancements in deep learning, there is an increasing interest in building intelligent systems that are capable of performing physical reasoning from a given scene for the purpose of advancing fluid and building safer AI systems. As a result, many of the contemporary approaches in modelling intuitive physics for machine cognition have been inspired by literature from cognitive science. Despite the wide range of work in physical reasoning for machine cognition, there is a scarcity of reviews that organize and group these deep learning approaches. Especially at the intersection of intuitive physics and artificial intelligence, there is a need to make sense of the diverse range of ideas and approaches. Therefore, this paper presents a comprehensive survey of recent advances and techniques in intuitive physics-inspired deep learning approaches for physical reasoning. The survey will first categorize existing deep learning approaches into three facets of physical reasoning before organizing them into three general technical approaches and propose six categorical tasks of the field. Finally, we highlight the challenges of the current field and present some future research directions.",
+    "bibtex": "@article{duan2022survey,\n  title={A Survey on Machine Learning Approaches for Modelling Intuitive Physics},\n  author={Duan, Jiafei and Dasgupta, Arijit and Fischer, Jason and Tan, Cheston},\n  journal={arXiv preprint arXiv:2202.06481},\n  year={2022}\n}",
+    "thumbnail": "/images/publications/IJCAI_Survey/featured.png",
+    "links": {
+      "paper": "/pdfs/publications/IJCAI_Survey.pdf",
+      "arxiv": "https://arxiv.org/abs/2202.06481",
+      "code": "https://github.com/jiafei1224/awesome-intuitive-physics-ai"
+    },
+    "tags": ["Survey", "Intuitive Physics", "Machine Learning", "Cognitive AI"],
+    "featured": true,
+    "publicationType": "conference"
+  },
+  {
+    "slug": "ieee-ssci",
+    "title": "Exploring Unsupervised Learning Methods for Automated Protocol Analysis",
+    "date": "2021-12-06",
+    "venue": "In the 2021 IEEE Symposium Series on Computational Intelligence",
+    "venueShort": "IEEE SSCI 2021",
+    "authors": [
+      { "name": "Arijit Dasgupta", "isUser": true, "isCoFirst": false },
+      { "name": "Yan Yi-Xue", "isUser": false, "isCoFirst": false },
+      { "name": "Ong Clarence", "isUser": false, "isCoFirst": false },
+      { "name": "Teo Jenn-Yue Bugsy", "isUser": false, "isCoFirst": false },
+      { "name": "Lim Chia Wei Andrew", "isUser": false, "isCoFirst": false }
+    ],
+    "abstract": "The ability to analyse and differentiate network protocol traffic is crucial for network resource management to provide differentiated services by Telcos. Automated Protocol Analysis (APA) is crucial to significantly improve efficiency and reduce reliance on human experts. There are numerous automated state-of-the-art unsupervised methods for clustering unknown protocols in APA. However, many such methods have not been sufficiently explored using diverse test datasets. Thus failing to demonstrate their robustness to generalise. This study proposed a comprehensive framework to evaluate various combinations of feature extraction and clustering methods in APA. It also proposed a novel approach to automate selection of dataset dependent model parameters for feature extraction, resulting in improved performance. Promising results of a novel field-based tokenisation approach also led to our proposal of a novel automated hybrid approach for feature extraction and clustering of unknown protocols in APA. Our proposed hybrid approach performed the best in 7 out of 9 of the diverse test datasets, thus displaying the robustness to generalise across diverse unknown protocols. It also outperformed the unsupervised clustering technique in state-of-the-art open-source APA tool, NETZOB in all test datasets.",
+    "bibtex": "@INPROCEEDINGS{9660173,\n  author={Dasgupta, Arijit and Yan, Yi-Xue and Ong, Clarence and Teo, Jenn-Yue and Bugsy and Lim, Chia-Wei and Andrew},\n  booktitle={2021 IEEE Symposium Series on Computational Intelligence (SSCI)}, \n  title={Exploring Unsupervised Learning Methods for Automated Protocol Analysis}, \n  year={2021},\n  volume={},\n  number={},\n  pages={1-8},\n  doi={10.1109/SSCI50451.2021.9660173}\n}",
+    "thumbnail": "/images/publications/IEEESSCI/featured.png",
+    "links": {
+      "paper": "/pdfs/publications/IEEESSCI.pdf",
+      "arxiv": "https://arxiv.org/abs/2111.09061",
+      "slides": "/pdfs/IEEE_SSCI_Final_Slides.pdf"
+    },
+    "tags": ["Machine Learning", "Unsupervised Learning", "Network Protocols", "Automated Analysis"],
+    "featured": true,
+    "publicationType": "conference"
+  },
+  {
+    "slug": "iccas2021",
+    "title": "Trajectory Prediction & Path Planning for an Object Intercepting UAV with a Mounted Depth Camera",
+    "date": "2021-10-13",
+    "venue": "In the 2021 21st International Conference on Control, Automation and Systems",
+    "venueShort": "ICCAS 2021",
+    "authors": [
+      { "name": "Jasper Tan", "isUser": false, "isCoFirst": true },
+      { "name": "Arijit Dasgupta", "isUser": true, "isCoFirst": true },
+      { "name": "Arjun Agrawal", "isUser": false, "isCoFirst": true },
+      { "name": "Sutthiphong Srigrarom", "isUser": false, "isCoFirst": false }
+    ],
+    "abstract": "A novel control & software architecture using ROS C++ is introduced for object interception by a UAV with a mounted depth camera and no external aid. Existing work in trajectory prediction focused on the use of off-board tools like motion capture rooms to intercept thrown objects. The present study designs the UAV architecture to be completely on-board capable of object interception with the use of a depth camera and point cloud processing. The architecture uses an iterative trajectory prediction algorithm for non-propelled objects like a ping-pong ball. A variety of path planning approaches to object interception and their corresponding scenarios are discussed, evaluated & simulated in Gazebo. The successful simulations exemplify the potential of using the proposed architecture for the onboard autonomy of UAVs intercepting objects.",
+    "bibtex": "@INPROCEEDINGS{9649912,\n  author={Tan, Jasper and Dasgupta, Arijit and Agrawal, Arjun and Srigrarom, Sutthiphong},\n  booktitle={2021 21st International Conference on Control, Automation and Systems (ICCAS)}, \n  title={Trajectory Prediction & Path Planning for an Object Intercepting UAV with a Mounted Depth Camera}, \n  year={2021},\n  volume={},\n  number={},\n  pages={703-708},\n  doi={10.23919/ICCAS52745.2021.9649912}\n}",
+    "thumbnail": "/images/publications/ICCAS2021/featured.png",
+    "links": {
+      "paper": "/pdfs/publications/ICCAS2021.pdf",
+      "arxiv": "https://arxiv.org/abs/2111.09083",
+      "code": "https://github.com/arijitnoobstar/UAVProjectileCatcher"
+    },
+    "tags": ["Robotics", "UAV", "Trajectory Prediction", "Path Planning", "ROS"],
+    "featured": true,
+    "publicationType": "conference"
+  },
+  {
+    "slug": "aiaa2020",
+    "title": "Investigation of flow past rotating cylinder using transitional rans models for different mesh motion methodologies",
+    "date": "2020-01-08",
+    "venue": "In the 2020 AIAA Scitech Forum",
+    "venueShort": "AIAA Scitech 2020",
+    "authors": [
+      { "name": "Arijit Dasgupta", "isUser": true, "isCoFirst": false },
+      { "name": "Harish Gopalan", "isUser": false, "isCoFirst": false },
+      { "name": "Dominic Chandar", "isUser": false, "isCoFirst": false }
+    ],
+    "abstract": "This study investigates the flow past a rotating cylinder at different spin ratios using Reynolds-averaged Navier-Stokes (RANS) models. Four different models are considered. The computations also evaluate two different mesh motion methodologies - arbitrary mesh interface (AMI) and overset. The simulation Reynolds number is 130000. The observation of a negative lift force at a spin ratio of 0.35 at Re = 130000 is the motivation to choose this test case. The K-Kl-Omega and Gamma-Re-Theta models can capture the negative lift force while the other two models fail.",
+    "bibtex": "@inproceedings{dasgupta2020investigation,\n  title={Investigation of flow past rotating cylinder using transitional rans models for different mesh motion methodologies},\n  author={Dasgupta, Arijit and Gopalan, Harish and Chandar, Dominic},\n  booktitle={AIAA Scitech 2020 Forum},\n  pages={1587},\n  year={2020}\n}",
+    "thumbnail": "/images/publications/AIAA2020/featured.png",
+    "links": {
+      "paper": "/pdfs/publications/AIAA2020.pdf"
+    },
+    "tags": ["CFD", "RANS", "Aerodynamics", "OpenFOAM"],
+    "featured": true,
+    "publicationType": "conference"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "title": "SRC Research Scholar",
+    "date": "2023-06-01",
+    "organization": "Semiconductor Research Corporation (SRC)",
+    "organizationUrl": null,
+    "description": "For my role as a funded graduate student researcher under CoCoSys, Jump 2.0 from June 2023 to May 2025.",
+    "logo": "/images/experience/src-logo.jpeg"
+  },
+  {
+    "title": "Valedictorian",
+    "date": "2022-07-14",
+    "organization": "National University of Singapore",
+    "organizationUrl": null,
+    "description": "Valedictorian of NUS Mechanical Engineering cohort of 2022, representing over 370 students.",
+    "logo": "/images/education/nus-logo.jpg"
+  },
+  {
+    "title": "Sung Kah Kay Memorial Prize",
+    "date": "2022-07-14",
+    "organization": "University Scholars Programme, NUS",
+    "organizationUrl": null,
+    "description": "For leadership in interdisciplinary scholarship and academic excellence in USP",
+    "logo": "/images/education/usp-logo.png"
+  },
+  {
+    "title": "NUS Faculty of Engineering Dean's List x 4",
+    "date": "2022-07-01",
+    "organization": "National University of Singapore",
+    "organizationUrl": null,
+    "description": "For my academic performance in Mechanical Engineering (Top 5%).",
+    "logo": "/images/education/nus-logo.jpg"
+  },
+  {
+    "title": "President's Honour Roll",
+    "date": "2022-06-01",
+    "organization": "University Scholars Programme, NUS",
+    "organizationUrl": null,
+    "description": "For my academic and community contribution to the University Scholar's Programme.",
+    "logo": "/images/education/usp-logo.png"
+  },
+  {
+    "title": "A*STAR Undergraduate Scholarship",
+    "date": "2018-08-01",
+    "dateEnd": "2022-05-01",
+    "organization": "Agency for Science, Technology & Research",
+    "organizationUrl": null,
+    "description": "Awarded the prestigious A*STAR Undergraduate Scholarship for research potential. This funded my undergraduate and there is NO bond.",
+    "logo": "/images/experience/astar-logo.webp"
+  },
+  {
+    "title": "Senior Honour Roll",
+    "date": "2020-11-01",
+    "organization": "University Scholars Programme, NUS",
+    "organizationUrl": null,
+    "description": "For my academic and community contribution to the University Scholar's Programme.",
+    "logo": "/images/education/usp-logo.png"
+  },
+  {
+    "title": "Honour Roll",
+    "date": "2019-11-01",
+    "organization": "University Scholars Programme, NUS",
+    "organizationUrl": null,
+    "description": "For my academic and community contribution to the University Scholar's Programme.",
+    "logo": "/images/education/usp-logo.png"
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "institution": "Massachusetts Institute of Technology",
+    "degree": "PhD in Electrical Engineering and Computer Science",
+    "timeframe": "Sep 2022 - Present",
+    "location": "Cambridge, MA, USA",
+    "gpa": "GPA: 5.00/5.00",
+    "valedictorian": false,
+    "thesis": null,
+    "advisor": "Co-advised by Vikash K. Mansinghka and Joshua B. Tenenbaum",
+    "details": "Part of the Probabilistic Computing Lab in CSAIL and BCS. Research focuses on cognitive AI, robotics, and probabilistic computing.",
+    "logo": "/images/education/mit-logo.png"
+  },
+  {
+    "institution": "Massachusetts Institute of Technology",
+    "degree": "M.S. in Electrical Engineering and Computer Science",
+    "timeframe": "Sep 2022 - May 2025",
+    "location": "Cambridge, MA, USA",
+    "gpa": "GPA: 5.00/5.00",
+    "valedictorian": false,
+    "thesis": null,
+    "advisor": "Co-advised by Vikash K. Mansinghka and Joshua B. Tenenbaum",
+    "details": "Part of the Probabilistic Computing Lab in CSAIL and BCS.",
+    "logo": "/images/education/mit-logo.png"
+  },
+  {
+    "institution": "National University of Singapore",
+    "degree": "BEng in Mechanical Engineering",
+    "timeframe": "Aug 2018 - May 2022",
+    "location": "Singapore",
+    "gpa": "GPA: 4.85/5.00 (Highest Distinction)",
+    "valedictorian": true,
+    "thesis": "3D Vision-only Synthetic Dataset for Violation-of-Expectation in Physical Reasoning",
+    "advisor": "Supervised by Cheston Tan and Marcelo Ang",
+    "details": "Valedictorian of NUS Mechanical Engineering, representing over 370 students. Part of the University Scholars Programme (USP).",
+    "logo": "/images/education/nus-logo.jpg",
+    "awards": [
+      "Valedictorian",
+      "Sung Kah Kay Memorial Prize",
+      "President's Honour Roll",
+      "A*STAR Undergraduate Scholarship",
+      "NUS Faculty of Engineering Dean's List x 4"
+    ]
+  }
+]

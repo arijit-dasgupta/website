@@ -1,0 +1,79 @@
+[
+  {
+    "category": "Programming Languages",
+    "summary": "Core programming languages for software development and research",
+    "skills": [
+      { "name": "Python", "description": "", "image": null },
+      { "name": "C/C++", "description": "", "image": null },
+      { "name": "Julia", "description": "", "image": null },
+      { "name": "MATLAB", "description": "", "image": null },
+      { "name": "SQL", "description": "", "image": null },
+      { "name": "HTML/JavaScript", "description": "", "image": null }
+    ],
+    "icon": "code"
+  },
+  {
+    "category": "Frameworks",
+    "summary": "Software frameworks and libraries for GPU acceleration, scientific computing and WebDev",
+    "skills": [
+      { "name": "JAX", "description": "", "image": null },
+      { "name": "CUDA", "description": "", "image": null },
+      { "name": "PyTorch", "description": "", "image": null },
+      { "name": "ROS", "description": "", "image": null },
+      { "name": "Linux/Zsh", "description": "", "image": null },
+      { "name": "Gen.jl/GenJAX", "description": "", "image": null },
+      { "name": "Flask", "description": "", "image": null },
+      { "name": "React/Next.js", "description": "", "image": null }
+    ],
+    "icon": "framework"
+  },
+  {
+    "category": "Productivity",
+    "summary": "Tools for workflow and project management",
+    "skills": [
+      { "name": "Git", "description": "", "image": null },
+      { "name": "Linear", "description": "", "image": null },
+      { "name": "Cursor", "description": "", "image": null },
+      { "name": "Notion", "description": "", "image": null },
+      { "name": "LaTeX", "description": "", "image": null }
+    ],
+    "icon": "tools"
+  },
+  {
+    "category": "AI/ML/ProbProg",
+    "summary": "AI, Machine learning and probabilistic programming techniques",
+    "skills": [
+      { "name": "Probabilistic Programming", "description": "", "image": null },
+      { "name": "GPU Programming", "description": "", "image": null },
+      { "name": "Sequential Monte Carlo/MCMC", "description": "", "image": null },
+      { "name": "Bayesian Model Calibration", "description": "", "image": null },
+      { "name": "Unsupervised Learning", "description": "", "image": null },
+      { "name": "Deep Learning", "description": "", "image": null }
+    ],
+    "icon": "ml"
+  },
+  {
+    "category": "Physical AI & Hardware Design",
+    "summary": "Physical AI systems and hardware design",
+    "skills": [
+      { "name": "3D Computer Vision", "description": "", "image": null },
+      { "name": "PyBullet/MuJoCo Simulation", "description": "", "image": null },
+      { "name": "Rerun", "description": "", "image": null },
+      { "name": "3D CAD Modeling", "description": "", "image": null },
+      { "name": "Engineering Manufacturing & Prototyping", "description": "", "image": null },
+      { "name": "Inverse Graphics", "description": "", "image": null }
+    ],
+    "icon": "robot"
+  },
+  {
+    "category": "Computational Cognitive Science",
+    "summary": "Tools and methods for computational cognitive modeling",
+    "skills": [
+      { "name": "Human Behavioral Experimentation", "description": "", "image": null },
+      { "name": "Bayesian Cognitive Modeling", "description": "", "image": null },
+      { "name": "Psychophysical Trial Design", "description": "", "image": null },
+      { "name": "Custom Web Based Experiment Platforms", "description": "", "image": null }
+    ],
+    "icon": "brain"
+  }
+]

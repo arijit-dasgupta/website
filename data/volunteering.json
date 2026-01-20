@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Elected Board Member",
+    "organization": "MIT Graduate Student Council's External Affairs Board",
+    "organizationUrl": "https://eecs-gaap.mit.edu/",
+    "timeframe": "Jan 2026 - Present",
+    "dateStart": "2026-01-01",
+    "dateEnd": null,
+    "logo": "/images/education/mit-logo.png",
+    "location": "USA",
+    "description": "Elected as a board member of the MIT Graduate Student Council's External Affairs Board, where I represent the interests of international students at MIT.",
+    "impact": [
+      "Represent the interests of international students at MIT"
+    ]
+  },
+  {
+    "title": "MIT EECS GAAP Mentor",
+    "organization": "MIT EECS GAAP",
+    "organizationUrl": "https://eecs-gaap.mit.edu/",
+    "timeframe": "Oct 2024 - Dec 2024",
+    "dateStart": "2024-10-01",
+    "dateEnd": "2024-12-31",
+    "logo": "/images/education/mit-logo.png",
+    "location": "Singapore",
+    "description": "Provided individualized mentorship to underrepresented PhD applicants, including in depth feedback on research statements, CVs and guidance on research interests and application strategy.",
+    "impact": [
+      "Provided individualized mentorship to underrepresented PhD applicants"
+    ]
+  },
+  {
+    "title": "Bengali Translator for COVID-19 Patients",
+    "organization": "Ministry of Health, Singapore",
+    "organizationUrl": "https://www.moht.com.sg/",
+    "timeframe": "Apr 2020 - Nov 2020",
+    "dateStart": "2020-04-01",
+    "dateEnd": "2020-11-30",
+    "logo": "/images/experience/moh-logo.webp",
+    "location": "Singapore",
+    "description": "Provided emergency Bengali translation services to COVID-19 patients during Singapore's migrant worker COVID outbreak via an on-call service in shifts. Translated for over 15 patients & front-line doctors at the National Centre for Infectious Diseases.",
+    "impact": [
+      "Translated for over 15 patients & front-line doctors",
+      "On-call service during critical COVID-19 outbreak period"
+    ]
+  },
+  {
+    "title": "Bengali Translator for Migrant Workers",
+    "organization": "Healthserve Singapore",
+    "organizationUrl": "https://www.healthserve.org.sg/",
+    "timeframe": "Apr 2020 - Jun 2020",
+    "dateStart": "2020-04-01",
+    "dateEnd": "2020-06-30",
+    "logo": "/images/experience/healthserve-logo.png",
+    "location": "Singapore",
+    "description": "Surveyed Bengali migrant workers on their emotional health & translated COVID-19 related information posters for Bengali migrant workers living in dormitories.",
+    "impact": [
+      "Surveyed migrant workers on emotional health",
+      "Translated COVID-19 information materials"
+    ]
+  }
+]
