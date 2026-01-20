@@ -144,10 +144,10 @@
     "tags": ["AIML", "Engineering Design", "Class Project", "Deep RL", "ROS", "Robotics"],
     "links": {
       "report": "/pdfs/FWMAV_DeepRL_Final.pdf",
-      "code": "https://github.com/arijitnoobstar/Flapping-Wing-MAV_DeepRL"
+      "code": "https://github.com/arijit-dasgupta/Flapping-Wing-MAV_DeepRL"
     },
     "collaborators": [
-      { "name": "Arijit Dasgupta", "url": "https://github.com/arijitnoobstar" },
+      { "name": "Arijit Dasgupta", "url": "https://github.com/arijit-dasgupta" },
       { "name": "Jasper Tan", "url": "https://jaspertan97.github.io/" },
       { "name": "Chong Yu Quan", "url": "https://github.com/cyuquan8" }
     ]
@@ -167,10 +167,10 @@
     "tags": ["AIML", "Class Project", "Deep RL", "Robotics", "PyBullet"],
     "links": {
       "report": "/pdfs/SpiderBot_Report.pdf",
-      "code": "https://github.com/arijitnoobstar/SpiderBot_DeepRL"
+      "code": "https://github.com/arijit-dasgupta/SpiderBot_DeepRL"
     },
     "collaborators": [
-      { "name": "Arijit Dasgupta", "url": "https://github.com/arijitnoobstar" },
+      { "name": "Arijit Dasgupta", "url": "https://github.com/arijit-dasgupta" },
       { "name": "Chong Yu Quan", "url": "https://github.com/cyuquan8" }
     ]
   },
@@ -189,10 +189,10 @@
     "tags": ["Class Project", "Image Processing", "Computer Vision", "MATLAB"],
     "links": {
       "report": "/pdfs/image_processing_report.pdf",
-      "code": "https://github.com/arijitnoobstar/MachineVision_ImageProcessing"
+      "code": "https://github.com/arijit-dasgupta/MachineVision_ImageProcessing"
     },
     "collaborators": [
-      { "name": "Arijit Dasgupta", "url": "https://github.com/arijitnoobstar" },
+      { "name": "Arijit Dasgupta", "url": "https://github.com/arijit-dasgupta" },
       { "name": "Chong Yu Quan", "url": "https://github.com/cyuquan8" }
     ]
   },
@@ -213,7 +213,7 @@
       "report": "/pdfs/pinn.pdf"
     },
     "collaborators": [
-      { "name": "Arijit Dasgupta", "url": "https://github.com/arijitnoobstar" }
+      { "name": "Arijit Dasgupta", "url": "https://github.com/arijit-dasgupta" }
     ]
   },
   {

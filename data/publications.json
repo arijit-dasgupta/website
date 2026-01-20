@@ -122,7 +122,7 @@
     "links": {
       "paper": "/pdfs/publications/VoE.pdf",
       "arxiv": "https://arxiv.org/abs/2110.05836",
-      "code": "https://github.com/arijitnoobstar/voe_physical_reasoning",
+      "code": "https://github.com/arijit-dasgupta/voe_physical_reasoning",
       "dataset": "https://github.com/jiafei1224/AVoE",
       "supplementary": "/pdfs/VOE_NeurIPS_Supplementary.pdf"
     },
@@ -197,7 +197,7 @@
     "links": {
       "paper": "/pdfs/publications/ICCAS2021.pdf",
       "arxiv": "https://arxiv.org/abs/2111.09083",
-      "code": "https://github.com/arijitnoobstar/UAVProjectileCatcher"
+      "code": "https://github.com/arijit-dasgupta/UAVProjectileCatcher"
     },
     "tags": ["Robotics", "UAV", "Trajectory Prediction", "Path Planning", "ROS"],
     "featured": true,

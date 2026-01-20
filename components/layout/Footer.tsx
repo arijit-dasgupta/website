@@ -28,7 +28,7 @@ export default function Footer() {
                   <GraduationCap className="h-5 w-5" />
                 </a>
                 <a
-                  href="https://github.com/arijitnoobstar"
+                  href="https://github.com/arijit-dasgupta"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-foreground/70 hover:text-foreground transition-colors"
