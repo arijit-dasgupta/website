@@ -33,9 +33,9 @@ export default function Navbar() {
   const handleCvClick = async (e: React.MouseEvent) => {
     e.preventDefault();
     try {
-      const response = await fetch("/cv.pdf", { method: "HEAD" });
+      const response = await fetch("/pdfs/cv.pdf", { method: "HEAD" });
       if (response.ok) {
-        window.open("/cv.pdf", "_blank");
+        window.open("/pdfs/cv.pdf", "_blank");
       } else {
         setShowCvTooltip(true);
         setTimeout(() => setShowCvTooltip(false), 4000);
