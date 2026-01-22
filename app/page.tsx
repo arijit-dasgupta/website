@@ -40,16 +40,6 @@ export default function HomePage() {
       <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
-            {profile.photo && (
-              <div className="flex-shrink-0 w-48 h-48 relative rounded-full overflow-hidden border-4 border-accent/20">
-                <Image
-                  src={profile.photo}
-                  alt={profile.name}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-            )}
             <div className="flex-1 text-center md:text-left">
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
                 {profile.name}
@@ -185,6 +175,15 @@ export default function HomePage() {
                 </Link>
               </div>
             </div>
+            {profile.photo && (
+              <div className="flex-shrink-0 w-full md:w-80 relative border-4 border-accent/20">
+                <img
+                  src={profile.photo}
+                  alt={profile.name}
+                  className="w-full h-auto"
+                /> 
+              </div>
+            )}
           </div>
         </div>
       </section>

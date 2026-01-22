@@ -14,18 +14,18 @@ export const metadata: Metadata = {
   title: "Arijit Dasgupta - PhD Student, MIT EECS",
   description: "Personal academic and technical portfolio",
   icons: {
-    icon: "/images/profile/avatar.jpg",
-    shortcut: "/images/profile/avatar.jpg",
-    apple: "/images/profile/avatar.jpg",
+    icon: "/images/profile/solo_shot.jpg",
+    shortcut: "/images/profile/solo_shot.jpg",
+    apple: "/images/profile/solo_shot.jpg",
   },
   openGraph: {
     title: "Arijit Dasgupta - PhD Student, MIT EECS",
     description: "Personal academic and technical portfolio",
     images: [
       {
-        url: "/images/profile/avatar.jpg",
-        width: 1200,
-        height: 1200,
+        url: "/images/profile/solo_shot.jpg",
+        width: 3450,
+        height: 5185,
         alt: "Arijit Dasgupta",
       },
     ],
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: "Arijit Dasgupta - PhD Student, MIT EECS",
     description: "Personal academic and technical portfolio",
-    images: ["/images/profile/avatar.jpg"],
+    images: ["/images/profile/solo_shot.jpg"],
   },
 };
 
